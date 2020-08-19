@@ -2,12 +2,12 @@
 	<view>
 		<view class="search-cont">
 			<view class="location">
-				<image class="location-image" src="../../static/location.png"></image>
+				<image class="location-image" src="../../static/image/location.png"></image>
 				<text class="location-text">佛山市·顺德区</text>
 			</view>
 			<view class="search">
 				<input type="text" placeholder="你想修那?" disabled />
-				<image src="/static/search.png" mode="widthFix" class="search-img"></image>
+				<image src="/static/image/search.png" mode="widthFix" class="search-img"></image>
 			</view>
 		</view>
 		<view class="swi-view">
@@ -21,11 +21,44 @@
 				</block>
 			</swiper>
 		</view>
+		<view>
+			<view class="remen">
+				<text class="remenfuwu">热门服务</text>
+				<text class="tiyan">体验品质服务 享受美好生活</text>
+			</view>
+			<block v-for="(item, index) in classifyList" :key="index">
+				<view>
+					<view class="classify">
+						<view class="classify-name">
+							<image src="../../static/image/index.png"></image>
+						</view>
+						<block v-for="(item2, index2) in item.classify" :key="index2">
+							<view class="classify-item">
+								<image :src="item2.image"></image>
+								<text>{{item2.name}}</text>
+							</view>
+						</block>
+					</view>
+				</view>
+			</block>
+			<view class="quanbu">
+				<text>查看全部服务>></text>
+			</view>
+		</view>
+		<view>
+			<image class="liucheng" src="../../static/image/liucheng.png" mode="widthFix"></image>
+		</view>
+		<lianxi></lianxi>
+		<home-load v-if="homeload"></home-load>
 	</view>
 </template>
 
 <script>
+	import lianxi from './component/lianxi.vue'
 	export default {
+		components:{
+			lianxi
+		},
 		data() {
 			return {
 				images: [{
@@ -35,6 +68,83 @@
 					image:"https://img.alicdn.com/tfs/TB1eLa4gk9l0K4jSZFKXXXFjpXa-490-300.png"
 				}
 				],
+				classifyList:[{
+					classify:[{
+							image:"../../static/image/bingxiang.png",
+							name:"冰箱维修"
+						},
+						{
+							image:"../../static/image/kongtiao.png",
+							name:"空调维修"
+						},
+						{
+							image:"../../static/image/xiyiji.png",
+							name:"洗衣机维修"
+						},
+						{
+							image:"../../static/image/chufang.png",
+							name:"厨房家电维修"
+						}
+					]
+				},
+				{
+					classify:[{
+							image:"../../static/image/bingxiang.png",
+							name:"冰箱维修"
+						},
+						{
+							image:"../../static/image/kongtiao.png",
+							name:"空调维修"
+						},
+						{
+							image:"../../static/image/xiyiji.png",
+							name:"洗衣机维修"
+						},
+						{
+							image:"../../static/image/chufang.png",
+							name:"厨房家电维修"
+						}
+					]
+				},
+				{
+					classify:[{
+							image:"../../static/image/bingxiang.png",
+							name:"冰箱维修"
+						},
+						{
+							image:"../../static/image/kongtiao.png",
+							name:"空调维修"
+						},
+						{
+							image:"../../static/image/xiyiji.png",
+							name:"洗衣机维修"
+						},
+						{
+							image:"../../static/image/chufang.png",
+							name:"厨房家电维修"
+						}
+					]
+				},
+				{
+					classify:[{
+							image:"../../static/image/bingxiang.png",
+							name:"冰箱维修"
+						},
+						{
+							image:"../../static/image/kongtiao.png",
+							name:"空调维修"
+						},
+						{
+							image:"../../static/image/xiyiji.png",
+							name:"洗衣机维修"
+						},
+						{
+							image:"../../static/image/chufang.png",
+							name:"厨房家电维修"
+						}
+					]
+				}],
+				homeload: false
 			}
 		},
 		onLoad() {
@@ -99,5 +209,56 @@
 		width: 100%;
 		height: 300upx;
 		border-radius: 30upx;
+	}
+	.remen{
+		display: flex;
+		align-items: center;
+		height: 70upx;
+		padding: 10upx 10upx;
+	}
+	.remenfuwu{
+		padding: 0upx 10upx;
+		font-size: 35upx;
+		color: #333333;
+	}
+	.tiyan{
+		padding: 0upx 20upx;
+		font-size: 25upx;
+		color: #C0C0C0;
+	}
+	.classify{
+		display: flex;
+		justify-content: space-between;
+		text-align: center;
+	}
+	.classify-name image{
+		width: 90upx;
+		height: 120upx;
+	}
+	.classify-item image{
+		width: 60upx;
+		height: 60upx;
+		margin: 15upx 0;
+	}
+	.classify-item text{
+		font-size: 30upx;
+		display: block;
+	}
+	.quanbu{
+		display: flex;
+		height: 70upx;
+		margin: 30upx 20upx;
+		align-items: center;
+		background-color: #d0d0d0;
+		border-radius: 30upx;
+	}
+	.quanbu text{
+		font-size: 35upx;
+		color: #f15000;
+		margin: 0 auto;
+	}
+	.liucheng{
+		width: 100%;
+		margin: 20upx auto;
 	}
 </style>

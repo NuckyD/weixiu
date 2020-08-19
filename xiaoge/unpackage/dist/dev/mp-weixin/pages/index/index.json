@@ -1,4 +1,6 @@
 {
   "navigationBarTitleText": "首页",
-  "usingComponents": {}
+  "usingComponents": {
+    "lianxi": "/pages/index/component/lianxi"
+  }
 }
