@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "维修服务",
+  "usingComponents": {
+    "buy": "/pages/product/component/buy"
+  }
+}

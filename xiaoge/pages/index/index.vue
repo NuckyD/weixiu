@@ -33,7 +33,7 @@
 							<image src="../../static/image/index.png"></image>
 						</view>
 						<block v-for="(item2, index2) in item.classify" :key="index2">
-							<view class="classify-item">
+							<view class="classify-item" @click="choose()">
 								<image :src="item2.image"></image>
 								<text>{{item2.name}}</text>
 							</view>
@@ -151,7 +151,11 @@
 
 		},
 		methods: {
-
+			choose(){
+				uni.navigateTo({
+					url:'../product/product'
+				})
+			}
 		}
 	}
 </script>

@@ -1,0 +1,51 @@
+
+swiper.data-v-df6b5d58{
+	height: 400rpx !important;
+}
+.item-image.data-v-df6b5d58{
+	width: 100%;
+	height: 400rpx !important;
+}
+.title.data-v-df6b5d58{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	height: 80rpx;
+	width: 94%;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	margin: 10rpx auto;
+	border-bottom: 2rpx solid #D0D0D0;
+}
+.title-name.data-v-df6b5d58{
+	font-size: 30rpx;
+}
+.price.data-v-df6b5d58{
+	font-size: 30rpx;
+	color: #ffb92c;
+}
+.xuanze.data-v-df6b5d58{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	height: 100rpx;
+	width: 94%;
+	margin: 10rpx auto;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.yixuanfuwu.data-v-df6b5d58{
+	font-size: 30rpx;
+}
+.fuwu.data-v-df6b5d58{
+	font-size: 30rpx;
+}
+

@@ -135,7 +135,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var lianxi = function lianxi() {__webpack_require__.e(/*! require.ensure | pages/index/component/lianxi */ "pages/index/component/lianxi").then((function () {return resolve(__webpack_require__(/*! ./component/lianxi.vue */ 33));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var lianxi = function lianxi() {__webpack_require__.e(/*! require.ensure | pages/index/component/lianxi */ "pages/index/component/lianxi").then((function () {return resolve(__webpack_require__(/*! ./component/lianxi.vue */ 40));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
 
 
 
@@ -287,7 +287,13 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   onLoad: function onLoad() {
 
   },
-  methods: {} };exports.default = _default;
+  methods: {
+    choose: function choose() {
+      uni.navigateTo({
+        url: '../product/product' });
+
+    } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
 /* 17 */
