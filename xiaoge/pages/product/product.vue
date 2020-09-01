@@ -22,7 +22,6 @@
 		<view style="height: 2000upx"></view>
 		<buy></buy>
 	</view>
-	
 </template>
 
 <script>

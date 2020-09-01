@@ -104,11 +104,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"elements/homeload":1,"pages/index/component/lianxi":1,"pages/product/component/buy":1};
+/******/ 		var cssChunks = {"elements/homeload":1,"pages/index/component/product":1,"pages/product/component/buy":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "" + ({"elements/homeload":"elements/homeload","pages/index/component/lianxi":"pages/index/component/lianxi","pages/product/component/buy":"pages/product/component/buy"}[chunkId]||chunkId) + ".wxss";
+/******/ 				var href = "" + ({"elements/homeload":"elements/homeload","pages/index/component/product":"pages/index/component/product","pages/product/component/buy":"pages/product/component/buy"}[chunkId]||chunkId) + ".wxss";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {

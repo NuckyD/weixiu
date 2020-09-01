@@ -135,16 +135,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var lianxi = function lianxi() {__webpack_require__.e(/*! require.ensure | pages/index/component/lianxi */ "pages/index/component/lianxi").then((function () {return resolve(__webpack_require__(/*! ./component/lianxi.vue */ 40));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
-
-
-
-
-
-
-
-
-
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var product = function product() {__webpack_require__.e(/*! require.ensure | pages/index/component/product */ "pages/index/component/product").then((function () {return resolve(__webpack_require__(/*! ./component/product.vue */ 50));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
 
 
 
@@ -194,7 +185,7 @@ __webpack_require__.r(__webpack_exports__);
 
 {
   components: {
-    lianxi: lianxi },
+    product: product },
 
   data: function data() {
     return {
@@ -220,22 +211,7 @@ __webpack_require__.r(__webpack_exports__);
 
         {
           image: "../../static/image/chufang.png",
-          name: "厨房家电维修" }] },
-
-
-
-      {
-        classify: [{
-          image: "../../static/image/bingxiang.png",
-          name: "冰箱维修" },
-
-        {
-          image: "../../static/image/kongtiao.png",
-          name: "空调维修" },
-
-        {
-          image: "../../static/image/xiyiji.png",
-          name: "洗衣机维修" },
+          name: "厨房家电维修" },
 
         {
           image: "../../static/image/chufang.png",
@@ -258,22 +234,7 @@ __webpack_require__.r(__webpack_exports__);
 
         {
           image: "../../static/image/chufang.png",
-          name: "厨房家电维修" }] },
-
-
-
-      {
-        classify: [{
-          image: "../../static/image/bingxiang.png",
-          name: "冰箱维修" },
-
-        {
-          image: "../../static/image/kongtiao.png",
-          name: "空调维修" },
-
-        {
-          image: "../../static/image/xiyiji.png",
-          name: "洗衣机维修" },
+          name: "厨房家电维修" },
 
         {
           image: "../../static/image/chufang.png",

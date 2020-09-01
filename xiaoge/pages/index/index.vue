@@ -6,7 +6,7 @@
 				<text class="location-text">佛山市·顺德区</text>
 			</view>
 			<view class="search">
-				<input type="text" placeholder="你想修那?" disabled />
+				<input type="text" placeholder="搜索商品" disabled />
 				<image src="/static/image/search.png" mode="widthFix" class="search-img"></image>
 			</view>
 		</view>
@@ -29,9 +29,6 @@
 			<block v-for="(item, index) in classifyList" :key="index">
 				<view>
 					<view class="classify">
-						<view class="classify-name">
-							<image src="../../static/image/index.png"></image>
-						</view>
 						<block v-for="(item2, index2) in item.classify" :key="index2">
 							<view class="classify-item" @click="choose()">
 								<image :src="item2.image"></image>
@@ -41,23 +38,17 @@
 					</view>
 				</view>
 			</block>
-			<view class="quanbu">
-				<text>查看全部服务>></text>
-			</view>
 		</view>
-		<view>
-			<image class="liucheng" src="../../static/image/liucheng.png" mode="widthFix"></image>
-		</view>
-		<lianxi></lianxi>
+		<product></product>
 		<home-load v-if="homeload"></home-load>
 	</view>
 </template>
 
 <script>
-	import lianxi from './component/lianxi.vue'
+	import product from './component/product.vue'
 	export default {
 		components:{
-			lianxi
+			product
 		},
 		data() {
 			return {
@@ -84,21 +75,6 @@
 						{
 							image:"../../static/image/chufang.png",
 							name:"厨房家电维修"
-						}
-					]
-				},
-				{
-					classify:[{
-							image:"../../static/image/bingxiang.png",
-							name:"冰箱维修"
-						},
-						{
-							image:"../../static/image/kongtiao.png",
-							name:"空调维修"
-						},
-						{
-							image:"../../static/image/xiyiji.png",
-							name:"洗衣机维修"
 						},
 						{
 							image:"../../static/image/chufang.png",
@@ -122,21 +98,6 @@
 						{
 							image:"../../static/image/chufang.png",
 							name:"厨房家电维修"
-						}
-					]
-				},
-				{
-					classify:[{
-							image:"../../static/image/bingxiang.png",
-							name:"冰箱维修"
-						},
-						{
-							image:"../../static/image/kongtiao.png",
-							name:"空调维修"
-						},
-						{
-							image:"../../static/image/xiyiji.png",
-							name:"洗衣机维修"
 						},
 						{
 							image:"../../static/image/chufang.png",
