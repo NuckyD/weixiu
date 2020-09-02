@@ -12,6 +12,10 @@ var _App = _interopRequireDefault(__webpack_require__(/*! ./App */ 5));function 
 
 _vue.default.config.productionTip = false;
 
+// 进入页面的loading加载
+var homeload = function homeload() {__webpack_require__.e(/*! require.ensure | elements/homeload */ "elements/homeload").then((function () {return resolve(__webpack_require__(/*! ./elements/homeload.vue */ 43));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};
+_vue.default.component('home-load', homeload);
+
 _App.default.mpType = 'app';
 
 var app = new _vue.default(_objectSpread({},

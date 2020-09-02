@@ -17,6 +17,12 @@
 			"style": {
 				"navigationBarTitleText": "我的"
 			}
+		},
+		{
+			"path": "pages/product/product",
+			"style": {
+				"navigationBarTitleText": "维修服务"
+			}
 		}
 	],
 	"globalStyle": {
@@ -33,20 +39,20 @@
 		"list":[
 			{
 				"pagePath":"pages/index/index",
-				"iconPath":"static/index.png",
-				"selectedIconPath":"static/index.png", 
+				"iconPath":"static/image/index.png",
+				"selectedIconPath":"static/image/index.png", 
 				"text":"首页"
 			},
 			{
 				"pagePath":"pages/order/order",
-				"iconPath":"static/order.png",
-				"selectedIconPath":"static/order.png", 
-				"text":"订单"
+				"iconPath":"static/image/order.png",
+				"selectedIconPath":"static/image/order.png", 
+				"text":"我的订单"
 			},
 			{
 				"pagePath":"pages/my/my",
-				"iconPath":"static/my.png",
-				"selectedIconPath":"static/my.png", 
+				"iconPath":"static/image/my.png",
+				"selectedIconPath":"static/image/my.png", 
 				"text":"我的"
 			}
 		]
