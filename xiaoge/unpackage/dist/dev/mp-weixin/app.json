@@ -1,9 +1,10 @@
 {
   "pages": [
+    "pages/product/product",
     "pages/index/index",
     "pages/order/order",
-    "pages/my/my",
-    "pages/product/product"
+    "pages/my/my"
+ 
   ],
   "subPackages": [],
   "window": {
@@ -41,5 +42,5 @@
   "usingComponents": {
     "home-load": "/elements/homeload"
   },
-  "sitemapLocation": "sitemap38.json"
+  "sitemapLocation": "sitemap85.json"
 }

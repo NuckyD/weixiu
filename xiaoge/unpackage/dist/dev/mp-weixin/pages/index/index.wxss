@@ -67,7 +67,7 @@
 	height: 300rpx;
 	border-radius: 30rpx;
 }
-.remen.data-v-14aad34c{
+.remen.data-v-57280228{
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: flex;
@@ -77,17 +77,17 @@
 	height: 70rpx;
 	padding: 10rpx 10rpx;
 }
-.remenfuwu.data-v-14aad34c{
+.remenfuwu.data-v-57280228{
 	padding: 0rpx 10rpx;
 	font-size: 35rpx;
 	color: #333333;
 }
-.tiyan.data-v-14aad34c{
+.tiyan.data-v-57280228{
 	padding: 0rpx 20rpx;
 	font-size: 25rpx;
 	color: #C0C0C0;
 }
-.classify.data-v-14aad34c{
+.classify.data-v-57280228{
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: flex;
@@ -96,20 +96,20 @@
 	        justify-content: space-between;
 	text-align: center;
 }
-.classify-name image.data-v-14aad34c{
+.classify-name image.data-v-57280228{
 	width: 90rpx;
 	height: 120rpx;
 }
-.classify-item image.data-v-14aad34c{
+.classify-item image.data-v-57280228{
 	width: 60rpx;
 	height: 60rpx;
 	margin: 15rpx 0;
 }
-.classify-item text.data-v-14aad34c{
+.classify-item text.data-v-57280228{
 	font-size: 30rpx;
 	display: block;
 }
-.quanbu.data-v-14aad34c{
+.quanbu.data-v-57280228{
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: flex;
@@ -121,12 +121,12 @@
 	background-color: #d0d0d0;
 	border-radius: 30rpx;
 }
-.quanbu text.data-v-14aad34c{
+.quanbu text.data-v-57280228{
 	font-size: 35rpx;
 	color: #f15000;
 	margin: 0 auto;
 }
-.liucheng.data-v-14aad34c{
+.liucheng.data-v-57280228{
 	width: 100%;
 	margin: 20rpx auto;
 }

@@ -1,11 +1,11 @@
 
-.home-load image.data-v-087b75ad{
+.home-load image.data-v-31864382{
 	width: 200rpx; 
 	height: 200rpx;
 	background: rgba(0,0,0,0.2);
 	border-radius: 10rpx;
 }
-.home-load.data-v-087b75ad{
+.home-load.data-v-31864382{
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: flex;
@@ -18,7 +18,7 @@
 	width: 100%;
 	height: 100%;
 }
-.loadmin.data-v-087b75ad{
+.loadmin.data-v-31864382{
 	position: fixed;
 	top: 0;
 	bottom: 0;
